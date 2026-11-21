@@ -12,12 +12,12 @@ MESSAGE = os.environ.get(
 
 @app.route("/")
 def home():
-    return f"<h1>{MESSAGE}</h1><p>Version 2</p>"
+    return f"<h1>{MESSAGE}</h1><p>Version 2git add app.py</p>"
 
 
 @app.route("/api/health")
 def health():
-    return jsonify(status="ok")
+    return jsonify(status="ok"
 
 
 if __name__ == "__main__":
